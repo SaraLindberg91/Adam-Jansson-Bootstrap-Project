@@ -1,2 +1,2 @@
-# Adam-Jansson-Bootstrap-Project
+# Golf Pro, Bootstrap-Project
 Bootstrap project
