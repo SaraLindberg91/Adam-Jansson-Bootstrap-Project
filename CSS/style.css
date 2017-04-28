@@ -1,0 +1,112 @@
+/* Show it is fixed to the top */
+body {
+     position: relative;
+  /*min-height: 75rem;
+  padding-top: 4.5rem;*/
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    background-color: #333;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#top > nav > div > div.navbar-header > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFF !important;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+@media (max-width: 400px) {
+   
+    .navbar img {
+        display: none;
+    }
+    .navbar-toggle{
+        margin-top:0 !important;
+    }
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #bbb;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: 0.9;
+}
+.cbp-af-header-shrink img{
+    max-width: 20%;
+    height: auto;
+}
+
+
+.fill-screen {
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+}
+
+.title-row {
+    min-height: 300px;
+}
+
+.about-image img{
+   width: 100%;
+}
+.text-banner{
+     padding: 15px;
+}
+
+
+
+.information-section {
+    margin: 50px;
+}
+.information-element {
+    text-align: center;
+}
+.information-element img {
+    width: 150px;
+    height: 150px;
+}
+
+#carousel {
+    margin: 40px 0px;
+}
+#carousel img {
+    width: 100%;
+    height: auto;
+}
+
+
+article {
+    padding: 40px;
+}
+
+.contact-me {
+    margin-top: 50px;
+    text-align: center;
+    background-color: #017632;
+    color: #FFF;
+    padding:50px;
+}
+.contact-me a{
+    color:#FFF;
+}
+.contact-me a:hover{
+    color: #FFF;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}

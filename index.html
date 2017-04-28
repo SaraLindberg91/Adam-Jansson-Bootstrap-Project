@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Adam Jansson</title>
+
+    <link rel="shortcut icon" href="images/favicon-black.ico" />
+    <link href="CSS/style.css" rel="stylesheet" />
+    <link href="CSS/carousel.css" rel="stylesheet" />
+    <link href="CSS/animate.css" rel="stylesheet">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+
+
+</head>
+
+<body>
+
+    <header id="top">
+        <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#top">
+                        <img class="logotyp" src="images/golf-shot.png" alt="Golfer" />
+                        <span class="logo-name" href="#top">Adam Jansson</span>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#top">Hem</a></li>
+                        <li><a href="#about">Om</a></li>
+                        <li><a href="#gallery">Galleri</a></li>
+                        <li><a href="#activities">Aktiviteter</a></li>
+                        <li><a href="#contact-me">Kontakta mig</a></li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <div class="container-fluid">
+        <section class="row title-row">
+            <div class="fill-screen" style="background-image: url(images/start.jpg)">
+                <h2>Adam Jansson</h2>
+        </section>
+
+        <section id="about" class="row text-banner">
+            <div class="col-md-2 about-image">
+                <img class="thumbnail" src="images/Adam.jpg" alt="Adam">
+            </div>
+            <div class="col-md-10">
+                <h2>Om Adam</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.</p>
+            </div>
+        </section>
+
+        <!-- carousel -->
+        <section id="gallery" class="row">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <img src="images/start.jpg" alt="Golf course">
+                        <div class="carousel-caption">
+                            <h3>Golf</h3>
+                            <p>Golf course</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/golf-ocean-coast.jpg" alt="Golf course by the coast">
+                        <div class="carousel-caption">
+                            <h3>Golf</h3>
+                            <p>Golf course by the coast</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/golf-ball-on-the-green.jpg" alt="Golf ball on the green">
+                        <div class="carousel-caption">
+                            <h3>Golf</h3>
+                            <p>Golf ball on the green</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Information -->
+        <section id="activities" class="row information-section">
+            <div class="information-element col-md-4 wow fadeInLeft">
+                <img src="images/Lerjedalen-small.png" />
+                <h2>Klubb</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="information-element col-md-4 wow fadeInLeft">
+                <img src="images/pokal.jpg" />
+                <h2>Tävlingar</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+            <div class="information-element col-md-4 wow fadeInLeft">
+                <img src="images/hrm.jpeg" />
+                <h2>HRM Engineering</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            </div>
+        </section>
+
+        <section id="contact-me" class="row contact-me">
+            <div class="wow fadeInDown">
+                <h1>Kontakt</h1>
+                <h3>Ni hittar mig i Göteborg!</h3>
+                <p>Befälsgatan 8</p>
+                <p>415 05 Göteborg</p>
+                <p><a href="tel:+46703476722">070-347 67 22</a></p>
+            </div>
+             <div class="wow fadeInLeft">
+                 <img src="images/facebook-logo.png" alt="Facebook"/>
+                 <img src="images/instagram-logo.png" alt="Instagram"/>
+             </div>
+        </section>
+
+        </div>
+
+        <footer class="container-fluid">
+            <div class="row">
+                <p>&copy; Sara Lindberg 2017</p>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+        <script src="scripts/classie.js"></script>
+        <script src="scripts/cbpAnimatedHeader.js"></script>
+        <script src="scripts/jquery.easing.1.3.js"></script>
+
+        <script src="scripts/wow.min.js"></script>
+        <script src="scripts/scrolling.js"></script>
+
+
+</body>
+
+</html>
